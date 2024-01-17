@@ -1,0 +1,4 @@
+   private void handleInput() {
+        if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+            playerX += playerSpeed;
+        }
